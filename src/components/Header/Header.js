@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 export default class Header extends Component {
     render() {
         return (
-            <header className="s-header">
+            <header id="home" className="s-header">
                 <div className="row s-header__nav-wrap">
                     <nav className="s-header__nav">
                         <ul>
-                            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+                            <li className="current"><a className="smoothscroll" href="#hero">Home</a></li>
                             <li><a className="smoothscroll" href="#sobremi">Sobre mí</a></li>
                             <li><a className="smoothscroll" href="#educacion">Educacion</a></li>
                             <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
