@@ -36,7 +36,61 @@
   <title>Mi portfolio</title>
 </head>
 
-<body>
+<body id="top" class="ss-preload">
+  <!-- preloader
+    ================================================== -->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <!-- hero
+    ================================================== -->
+  <section id="hero" class="s-hero target-section">
+
+    <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+    <div class="row s-hero__content">
+      <div class="column">
+
+        <div class="s-hero__content-about">
+
+          <h1>Hola, soy Lucía.</h1>
+
+          <h3>
+            Soy <span>Full Stack Developer</span>, conozco el <span>Diseño UX/UI</span> y el Marketing Digital
+            para desarrollar aplicaciones usando tecnologías y frameworks como <span>React, NodeJS, Laravel, Express, MongoDB, mySQL, HTML5, CSS3, JS</span>. Puedes <a class="smoothscroll"
+              href="#about">hacer scroll</a>
+            para saber más <a class="smoothscroll" href="#about">sobre mí</a>.
+          </h3>
+
+          <div class="s-hero__content-social">
+            <a href="https://github.com/lubersol"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <!-- <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a> -->
+            <!-- <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a> -->
+            <!-- <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a> -->
+            <a href="https://www.linkedin.com/in/luc%C3%ADa-bermejo/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+
+        </div> <!-- end s-hero__content-about -->
+
+      </div>
+    </div> <!-- s-hero__content -->
+
+    <div class="s-hero__scroll">
+      <a href="#about" class="s-hero__scroll-link smoothscroll">
+        <span class="scroll-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style= "fill:rgba(0, 0, 0, 1)";transform:;-ms-filter:;>
+          <path
+              d=" M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z">
+          </path>
+          </svg>
+        </span>
+        <!-- <span class="scroll-text">Scroll Down</span> -->
+      </a>
+    </div> <!-- s-hero__scroll -->
+
+  </section> <!-- end s-hero -->
+
+
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <!--
@@ -49,8 +103,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>

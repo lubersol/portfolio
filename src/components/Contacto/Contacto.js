@@ -3,17 +3,17 @@ export default class Contacto extends Component {
     render() {
         return (
             <>
-                <section id="contact" className="s-contact target-section">
+                <section id="contacto" className="s-contact target-section">
                     <div className="row s-contact__header">
                         <div className="column large-12">
-                            <h3 className="section-header-allcaps">Say Hello</h3>
+                            <h3 className="section-header-allcaps">Contáctame!</h3>
                         </div>
                     </div>
                     <div className="row s-contact__content">
                         <div className="column large-7 medium-12">
                             <h4 className="huge-text">
-                                Have a new project in mind? Let's collaborate and build something awesome.
-                                Let's turn that idea to an even greater product :)
+                                Quieres que trabajemos juntos? Tienes algún proyecto en marcha? Hagamos algo increíble juntos.
+                                Vamos a convertir esa idea en un gran producto :)
                             </h4>
                         </div>
                         <div className="column large-4 medium-12">
@@ -39,7 +39,7 @@ export default class Contacto extends Component {
                                     </div>
                                 </div>
                                 <div className="column large-12">
-                                    <a href="mailto:sayhello@ceevee.com" className="mailtoui btn btn--primary h-full-width">Let's Talk</a>
+                                    <a href="mailto:lubersol@gmail.com" className="mailtoui btn btn--primary h-full-width">Hablemos!</a>
                                 </div>
                             </div>
                         </div>

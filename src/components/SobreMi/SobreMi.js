@@ -3,7 +3,7 @@ export default class SobreMi extends Component {
     render() {
         return (
             <>
-            <section id="about" className="s-about target-section">
+            <section id="sobremi" className="s-about target-section">
                 <div className="row">
                     <div className="column large-3 tab-12">
                         <img className="s-about__pic" src="images/avatars/user-lucia.jpg" alt="" />
@@ -11,7 +11,7 @@ export default class SobreMi extends Component {
                     <div className="column large-9 tab-12 s-about__content">
                         <h3>Sobre mí</h3>
                         <p>
-                            ¡Hola! mi nombre es Lucía Bermejo Solivellas. Después de licenciarme en Psicología y tras una larga trayectoria profesional en el sector administrativo/educativo, decidí dar un giro laboral y meterme de lleno en el mundo digital, formándome como "Full Stack Developer" y realizando diversos cursos de diseño UX/UI y Marketing Digital
+                            ¡Hola! mi nombre es Lucía Bermejo Solivellas. Después de licenciarme en Psicología y tras una larga trayectoria profesional en el sector administrativo/educativo, decidí dar un giro laboral y meterme de lleno en el apasionante mundo digital, formándome como "Full Stack Developer" y realizando diversos cursos de diseño UX/UI y Marketing Digital
                         </p>
                         <hr />
                         <div className="row s-about__content-bottom">
@@ -19,7 +19,6 @@ export default class SobreMi extends Component {
                                 <h3>Detalles de Contacto</h3>
                                 <p>
                                     Lucía Bermejo <br />
-                                    Cuatro Caminos<br />
                                     Madrid 28020 España <br />
                                     <a href="tel:+34696925484">+34 696 925 484</a> <br />
                                     <a href="mailto:#0">lubersol@gmail.com</a>

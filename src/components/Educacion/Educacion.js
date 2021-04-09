@@ -3,7 +3,7 @@ export default class Educacion extends Component {
     render() {
         return (
             <>
-                <section id="resume" className="s-resume target-section">
+                <section id="educacion" className="s-resume target-section">
                     <div className="row s-resume__section">
                         <div className="column large-3 tab-12">
                             <h3 className="section-header-allcaps">Career</h3>

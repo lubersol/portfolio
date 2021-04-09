@@ -8,10 +8,10 @@ export default class Header extends Component {
                     <nav className="s-header__nav">
                         <ul>
                             <li className="current"><a className="smoothscroll" href="#hero">Home</a></li>
-                            <li><a className="smoothscroll" href="#SobreMi">Sobre mí</a></li>
-                            <li><a className="smoothscroll" href="#Educacion">Educacion</a></li>
-                            <li><a className="smoothscroll" href="#Portfolio">Portfolio</a></li>
-                            <li><a className="smoothscroll" href="#Contacto">Contacto</a></li>
+                            <li><a className="smoothscroll" href="#sobremi">Sobre mí</a></li>
+                            <li><a className="smoothscroll" href="#educacion">Educacion</a></li>
+                            <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
+                            <li><a className="smoothscroll" href="#contacto">Contacto</a></li>
                         </ul>
                     </nav>
                 </div> 
