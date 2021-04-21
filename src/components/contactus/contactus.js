@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-export default class Contacto extends Component {
-    render() {
-        return (
-            <>
-                <section id="contacto" className="s-contact target-section">
+import React, { Component } from 'react';
+export default class Contactus extends Component {
+  render() {
+    return (
+      <React.Fragment>
+      <section id="contact" className="s-contact target-section">
                     <div className="row s-contact__header">
                         <div className="column large-12">
                             <h3 className="section-header-allcaps">Contáctame!</h3>
@@ -45,7 +45,11 @@ export default class Contacto extends Component {
                         </div>
                     </div>
                 </section>
-            </>
-        )
-    }
+      </React.Fragment>
+    );
+  }
 }
+
+
+
+

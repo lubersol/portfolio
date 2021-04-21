@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
 
 
 //Components
-import Contacto from './components/Contacto/Contacto';
-import Educacion from './components/Educacion/Educacion';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-//import Navbar from './components/Navbar/Navbar';
-import Portfolio from './components/Portfolio/Portfolio';
-import SobreMi from './components/SobreMi/SobreMi.js';
+import Header from './components/header/header';
+import About from './components/about/about';
+import Resume from './components/resume/resume';
+import Portfolio from './components/portfolio/portfolio';
+import Contactus from './components/contactus/contactus';
+import Footer from './components/footer/footer';
 
 
 class App extends Component {
@@ -17,13 +15,13 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <SobreMi />
-        <Educacion />
+        <About />
+        <Resume />
         <Portfolio />
-        <Contacto />
-        <Footer /> 
+        <Contactus />
+        <Footer />
       </div>
-  );
-}
+    );
+  }
 }
 export default App;

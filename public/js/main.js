@@ -210,7 +210,7 @@
                         //detect Escape key press
                         document.addEventListener("keydown", function(evt) {
                             evt = evt || window.event;
-                            if(evt.keyCode === 27){
+                            if(evt.code === 27){
                             instance.close();
                             }
                         });
