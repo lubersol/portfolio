@@ -35,20 +35,17 @@ export default class Portfolio extends Component {
                             </a>
                         </div>  
                         <div className="column folio-item">
-                            <a href="#modal-05" className="folio-item__thumb">
-                                <img src="images/portfolio/comecocos.png" srcSet="images/portfolio/comecocos.png 1x, 
-                           images/portfolio/comecocos@2x.png 2x" alt="" />
-                            </a>
-                        </div>
-                        <div className="column folio-item">
                             <a href="#modal-03" className="folio-item__thumb">
                                 <img src="images/portfolio/dental.png" srcSet="images/portfolio/dental.png 1x, 
                            images/portfolio/dental@2x.png 2x" alt="" />
                             </a>
                         </div>
-                        
-                                              
-                        
+                        <div className="column folio-item">
+                            <a href="#modal-05" className="folio-item__thumb">
+                                <img src="images/portfolio/comecocos.png" srcSet="images/portfolio/comecocos.png 1x, 
+                           images/portfolio/comecocos@2x.png 2x" alt="" />
+                            </a>
+                        </div>
                         {/* <div className="column folio-item">
                             <a href="#modal-07" className="folio-item__thumb">
                                 <img src="images/portfolio/rucksack.jpg" srcSet="images/portfolio/rucksack.jpg 1x, 

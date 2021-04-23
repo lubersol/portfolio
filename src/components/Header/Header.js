@@ -30,8 +30,8 @@ export default class Header extends Component {
                                     Me encanta la programación y estoy en constante aprendizaje.
                                     </h3>
                                 <div className="s-hero__content-social">
-                                    <a href="https://github.com/lubersol" target="_blank" rel="noreferrer"><i class="fab fa-github" aria-hidden="true"></i></a>
-                                    <a href="https://www.linkedin.com/in/lucía-bermejo" target="_blank" rel="noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/lubersol" target="_blank" rel="noreferrer"><i class="fab fa-github" aria-hidden="true" /></a>
+                                    <a href="https://www.linkedin.com/in/lucía-bermejo" target="_blank" rel="noreferrer"><i class="fab fa-linkedin" aria-hidden="true" /></a>
                                 </div>
                             </div>
                         </div>
