@@ -22,16 +22,16 @@ export default class Header extends Component {
                 <section id="hero" className="s-hero target-section">
                     <div className="s-hero__bg rellax" data-rellax-speed="-7"></div>
                     <div className="row s-hero__content">
-                    <div className="column">
-                        <div className="s-hero__content-about">
+                        <div className="column">
+                            <div className="s-hero__content-about">
                                 <h1>FSD Lucía Bermejo.</h1>
                                 <h3>
                                     Soy <span>Full Stack Developer. </span><br />Trabajo con React, Express, MongoDB, NodeJS, Laravel, mySQL, etc...<br />
                                     Me encanta la programación y estoy en constante aprendizaje.
                                     </h3>
                                 <div className="s-hero__content-social">
-                                    <a href="https://github.com/lubersol" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-                                    <a href="https://www.linkedin.com/in/lucía-bermejo" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/lubersol" target="_blank" rel="noreferrer"><i class="fab fa-github" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/lucía-bermejo" target="_blank" rel="noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>

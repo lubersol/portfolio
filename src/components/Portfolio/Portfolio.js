@@ -9,44 +9,47 @@ export default class Portfolio extends Component {
                             <h3>Mis últimos proyectos</h3>
                         </div>
                     </div>
-                    <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+                    <div className="row collapse block-large-1-3 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
                         <div className="column folio-item">
                             <a href="#modal-01" className="folio-item__thumb">
-                                <img src="images/portfolio/droplet.jpg" srcSet="images/portfolio/droplet.jpg 1x, 
-                           images/portfolio/droplet@2x.jpg 2x" alt="" />
+                                <img src="images/portfolio/videoblub.jpg" srcSet="images/portfolio/videoclub.png 1x, 
+                           images/portfolio/videoclub@2x.png 2x" alt="" />
                             </a>
                         </div>
                         <div className="column folio-item">
                             <a href="#modal-02" className="folio-item__thumb">
-                                <img src="images/portfolio/lamp.jpg" srcSet="images/portfolio/lamp.jpg 1x, 
-                           images/portfolio/lamp@2x.jpg 2x" alt="" />
-                            </a>
-                        </div>
-                        <div className="column folio-item">
-                            <a href="#modal-03" className="folio-item__thumb">
-                                <img src="images/portfolio/minimalismo.jpg" srcSet="images/portfolio/minimalismo.jpg 1x, 
-                           images/portfolio/minimalismo@2x.jpg 2x" alt="" />
-                            </a>
-                        </div>
-                        <div className="column folio-item">
-                            <a href="#modal-04" className="folio-item__thumb">
-                                <img src="images/portfolio/shutterbug.jpg" srcSet="images/portfolio/shutterbug.jpg 1x, 
-                           images/portfolio/shutterbug@2x.jpg 2x" alt="" />
-                            </a>
-                        </div>
-                        <div className="column folio-item">
-                            <a href="#modal-05" className="folio-item__thumb">
-                                <img src="images/portfolio/fuji.jpg" srcSet="images/portfolio/fuji.jpg 1x, 
-                           images/portfolio/fuji@2x.jpg 2x" alt="" />
+                                <img src="images/portfolio/canllobera.png" srcSet="images/portfolio/canllobera.png 1x, 
+                           images/portfolio/canllobera@2x.png 2x" alt="" />
                             </a>
                         </div>
                         <div className="column folio-item">
                             <a href="#modal-06" className="folio-item__thumb">
-                                <img src="images/portfolio/skaterboy.jpg" srcSet="images/portfolio/skaterboy.jpg 1x, 
-                           images/portfolio/skaterboy@2x.jpg 2x" alt="" />
+                                <img src="images/portfolio/lubersol.png" srcSet="images/portfolio/lubersol.png 1x, 
+                           images/portfolio/lubersol@2x.png 2x" alt="" />
                             </a>
                         </div>
                         <div className="column folio-item">
+                            <a href="#modal-04" className="folio-item__thumb">
+                                <img src="images/portfolio/witcher.png" srcSet="images/portfolio/witcher.png 1x, 
+                           images/portfolio/witcher@2x.png 2x" alt="" />
+                            </a>
+                        </div>  
+                        <div className="column folio-item">
+                            <a href="#modal-05" className="folio-item__thumb">
+                                <img src="images/portfolio/comecocos.png" srcSet="images/portfolio/comecocos.png 1x, 
+                           images/portfolio/comecocos@2x.png 2x" alt="" />
+                            </a>
+                        </div>
+                        <div className="column folio-item">
+                            <a href="#modal-03" className="folio-item__thumb">
+                                <img src="images/portfolio/dental.png" srcSet="images/portfolio/dental.png 1x, 
+                           images/portfolio/dental@2x.png 2x" alt="" />
+                            </a>
+                        </div>
+                        
+                                              
+                        
+                        {/* <div className="column folio-item">
                             <a href="#modal-07" className="folio-item__thumb">
                                 <img src="images/portfolio/rucksack.jpg" srcSet="images/portfolio/rucksack.jpg 1x, 
                            images/portfolio/rucksack@2x.jpg 2x" alt="" />
@@ -57,7 +60,7 @@ export default class Portfolio extends Component {
                                 <img src="images/portfolio/sanddunes.jpg" srcSet="images/portfolio/sanddunes.jpg 1x, 
                            images/portfolio/sanddunes@2x.jpg 2x" alt />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     {/* Modal Templates Popup*/}
                     <div id="modal-01" hidden>
