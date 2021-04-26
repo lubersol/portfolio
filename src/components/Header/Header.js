@@ -3,9 +3,9 @@ export default class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <header className="s-header">
-                    <div className="row s-header__nav-wrap">
-                        <nav className="s-header__nav">
+                <header className="sHeader">
+                    <div className="row sHeader__nav-wrap">
+                        <nav className="sHeader__nav">
                             <ul>
                                 <li className="current"><a className="smoothscroll" href="#hero">INICIO</a></li>
                                 <li><a className="smoothscroll" href="#about">SOBRE MI</a></li>
@@ -15,8 +15,8 @@ export default class Header extends Component {
                             </ul>
                         </nav>
                     </div>
-                    <a className="s-header__menu-toggle" href="#0" title="Menu">
-                        <span className="s-header__menu-icon"></span>
+                    <a className="sHeaderMenuToggle" href="#0" title="Menu">
+                        <span className="sHeaderMenuIcon"></span>
                     </a>
                 </header>
                 <section id="hero" className="s-hero target-section">
@@ -30,8 +30,8 @@ export default class Header extends Component {
                                     Me encanta la programación y estoy en constante aprendizaje.
                                     </h3>
                                 <div className="s-hero__content-social">
-                                    <a href="https://github.com/lubersol" target="_blank" rel="noreferrer"><i class="fab fa-github" aria-hidden="true" /></a>
-                                    <a href="https://www.linkedin.com/in/lucía-bermejo" target="_blank" rel="noreferrer"><i class="fab fa-linkedin" aria-hidden="true" /></a>
+                                    <a href="https://github.com/lubersol" target="_blank" rel="noreferrer"><i className="fab fa-github" aria-hidden="true" /></a>
+                                    <a href="https://www.linkedin.com/in/lucía-bermejo" target="_blank" rel="noreferrer"><i className="fab fa-linkedin" aria-hidden="true" /></a>
                                 </div>
                             </div>
                         </div>

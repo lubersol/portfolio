@@ -3156,7 +3156,7 @@ input[type="button"].btn--primary:focus {
  * # site header
  *
  * ------------------------------------------------------------------- */
-.s-header {
+.sHeader {
     --header-height: 6.8rem;
     z-index: 100;
     width: 100%;
@@ -3166,7 +3166,7 @@ input[type="button"].btn--primary:focus {
     left: 0;
 }
 
-.s-header__nav-wrap {
+.sHeader__nav-wrap {
     height: var(--header-height);
     min-height: 0;
     -ms-flex-pack: center;
@@ -3175,19 +3175,19 @@ input[type="button"].btn--primary:focus {
     padding: 0 calc(var(--gutter-lg) + 1.2rem);
 }
 
-.s-header.offset {
+.sHeader.offset {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
     -webkit-transition: all .5s;
     transition: all .5s;
 }
 
-.s-header.scrolling {
+.sHeader.scrolling {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
 
-.s-header.sticky {
+.sHeader.sticky {
     opacity: 0;
     visibility: hidden;
     background-color: var(--color-gray-19);
@@ -3196,7 +3196,7 @@ input[type="button"].btn--primary:focus {
     left: 0;
 }
 
-.s-header.sticky.scrolling {
+.sHeader.sticky.scrolling {
     opacity: 1;
     visibility: visible;
 }
@@ -3204,7 +3204,7 @@ input[type="button"].btn--primary:focus {
 /* -------------------------------------------------------------------
  * ## header nav
  * ------------------------------------------------------------------- */
-.s-header__nav {
+.sHeader__nav {
     font-family: var(--font-1);
     font-size: 1.45rem;
     font-weight: 400;
@@ -3212,14 +3212,14 @@ input[type="button"].btn--primary:focus {
     padding: 0;
 }
 
-.s-header__nav ul {
+.sHeader__nav ul {
     display: block;
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
-.s-header__nav li {
+.sHeader__nav li {
     list-style: none;
     display: inline-block;
     padding: 0;
@@ -3227,7 +3227,7 @@ input[type="button"].btn--primary:focus {
     position: relative;
 }
 
-.s-header__nav a {
+.sHeader__nav a {
     display: block;
     height: var(--header-height);
     line-height: var(--header-height);
@@ -3235,18 +3235,18 @@ input[type="button"].btn--primary:focus {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.s-header__nav a:hover, .s-header__nav a:focus {
+.sHeader__nav a:hover, .sHeader__nav a:focus {
     color: white;
 }
 
-.s-header__nav .current a {
+.sHeader__nav .current a {
     color: var(--color-2);
 }
 
 /* ------------------------------------------------------------------- 
  * ## mobile menu toggle 
  * ------------------------------------------------------------------- */
-.s-header__menu-toggle {
+.sHeaderMenuToggle {
     display: none;
     font-family: var(--font-1);
     font-size: 1.3rem;
@@ -3262,7 +3262,7 @@ input[type="button"].btn--primary:focus {
     top: 0;
 }
 
-.s-header__menu-toggle .s-header__menu-icon {
+.sHeaderMenuToggle .sHeaderMenuIcon {
     display: block;
     width: 30px;
     height: 2px;
@@ -3277,8 +3277,8 @@ input[type="button"].btn--primary:focus {
     transition: all .5s;
 }
 
-.s-header__menu-toggle .s-header__menu-icon::before, 
-.s-header__menu-toggle .s-header__menu-icon::after {
+.sHeaderMenuToggle .sHeaderMenuIcon::before, 
+.sHeaderMenuToggle .sHeaderMenuIcon::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -3289,32 +3289,32 @@ input[type="button"].btn--primary:focus {
     transition: all .5s;
 }
 
-.s-header__menu-toggle .s-header__menu-icon::before {
+.sHeaderMenuToggle .sHeaderMenuIcon::before {
     top: -10px;
 }
 
-.s-header__menu-toggle .s-header__menu-icon::after {
+.sHeaderMenuToggle .sHeaderMenuIcon::after {
     bottom: -10px;
 }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon {
+.sHeaderMenuToggle.is-clicked .sHeaderMenuIcon {
     background-color: rgba(255, 255, 255, 0);
     -webkit-transition: all .1s;
     transition: all .1s;
 }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::before, 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
+.sHeaderMenuToggle.is-clicked .sHeaderMenuIcon::before, 
+.sHeaderMenuToggle.is-clicked .sHeaderMenuIcon::after {
     background-color: white;
 }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::before {
+.sHeaderMenuToggle.is-clicked .sHeaderMenuIcon::before {
     top: 0;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
+.sHeaderMenuToggle.is-clicked .sHeaderMenuIcon::after {
     bottom: 0;
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
@@ -3325,18 +3325,18 @@ input[type="button"].btn--primary:focus {
  * header
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
-    .s-header {
+    .sHeader {
         top: 0;
     }
-    .s-header .row {
+    .sHeader .row {
         display: block;
         width: 100%;
         padding: 0;
     }
-    .s-header__nav-wrap, .s-header__nav {
+    .sHeader__nav-wrap, .sHeader__nav {
         background-color: #050505;
     }
-    .s-header__nav-wrap {
+    .sHeader__nav-wrap {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);
         -webkit-transform-origin: top center;
@@ -3346,7 +3346,7 @@ input[type="button"].btn--primary:focus {
         top: 0;
         left: 0;
     }
-    .s-header__nav {
+    .sHeader__nav {
         font-size: var(--text-size);
         font-weight: 500;
         height: auto;
@@ -3357,25 +3357,25 @@ input[type="button"].btn--primary:focus {
         opacity: 0;
         visibility: hidden;
     }
-    .s-header__nav ul {
+    .sHeader__nav ul {
         counter-reset: ctr;
         display: block;
         text-align: left;
         margin: 0 0 var(--vspace-1_75) 0;
         border-top: 1px dotted rgba(255, 255, 255, 0.06);
     }
-    .s-header__nav ul li {
+    .sHeader__nav ul li {
         display: block;
         border-bottom: 1px dotted rgba(255, 255, 255, 0.06);
         position: relative;
     }
-    .s-header__nav ul li a {
+    .sHeader__nav ul li a {
         height: auto;
         padding: var(--vspace-0_5) 0.4rem var(--vspace-0_5) 2.8rem;
         line-height: var(--vspace-1);
         color: white;
     }
-    .s-header__nav ul li::before {
+    .sHeader__nav ul li::before {
         content: counter(ctr, decimal-leading-zero);
         counter-increment: ctr;
         font-size: var(--text-xs);
@@ -3384,10 +3384,10 @@ input[type="button"].btn--primary:focus {
         top: var(--vspace-0_5);
         left: 0;
     }
-    .s-header__menu-toggle {
+    .sHeaderMenuToggle {
         display: block;
     }
-    .menu-is-open .s-header__nav-wrap {
+    .menu-is-open .sHeader__nav-wrap {
         height: auto;
         min-height: var(--header-height);
         -webkit-transform: scaleY(1);
@@ -3397,7 +3397,7 @@ input[type="button"].btn--primary:focus {
         transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
         transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     }
-    .menu-is-open .s-header__nav {
+    .menu-is-open .sHeader__nav {
         -webkit-transform: translateY(0);
         transform: translateY(0);
         opacity: 1;
@@ -3410,7 +3410,7 @@ input[type="button"].btn--primary:focus {
 }
 
 @media screen and (max-width: 400px) {
-    .s-header__nav {
+    .sHeader__nav {
         padding: 6.8rem 4rem 3.6rem;
     }
 }
@@ -3419,7 +3419,7 @@ input[type="button"].btn--primary:focus {
  * make sure the menu is visible on larger screens
  * ------------------------------------------------------------------- */
 @media only screen and (min-width: 801px) {
-    .s-header__nav {
+    .sHeader__nav {
         display: block !important;
     }
 }
@@ -3644,7 +3644,7 @@ input[type="button"].btn--primary:focus {
 /* -------------------------------------------------------------------
  * ## animate hero content
  * ------------------------------------------------------------------- */
-.ss-preload .s-header, 
+.ss-preload .sHeader, 
 .ss-preload .s-hero {
     visibility: hidden;
     opacity: 0;
@@ -3652,7 +3652,7 @@ input[type="button"].btn--primary:focus {
 .ss-preload .s-hero__content {
     opacity: 0;
 }
-.ss-loaded .s-header,
+.ss-loaded .sHeader,
 .ss-loaded .s-hero {
     visibility: visible;
     opacity: 1;
@@ -4590,7 +4590,7 @@ input[type="button"].btn--primary:focus {
 /* ------------------------------------------------------------------- 
  * ## go top
  * ------------------------------------------------------------------- */
-.ss-go-top {
+.ssGoTop {
     z-index: 2;
     opacity: 0;
     visibility: hidden;
@@ -4603,7 +4603,7 @@ input[type="button"].btn--primary:focus {
     right: 6.4rem;
 }
 
-.ss-go-top a {
+.ssGoTop a {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -4624,21 +4624,21 @@ input[type="button"].btn--primary:focus {
     position: relative;
 }
 
-.ss-go-top a:hover, 
-.ss-go-top a:focus {
+.ssGoTop a:hover, 
+.ssGoTop a:focus {
     background-color: var(--color-1);
 }
 
-.ss-go-top svg {
+.ssGoTop svg {
     height: 2.4rem;
     width: 2.4rem;
 }
 
-.ss-go-top svg path {
+.ssGoTop svg path {
     fill: white;
 }
 
-.ss-go-top.link-is-visible {
+.ssGoTop.link-is-visible {
     opacity: 1;
     visibility: visible;
     -webkit-transform: translate(0, 0);
@@ -4653,11 +4653,11 @@ input[type="button"].btn--primary:focus {
     .s-footer {
         padding-bottom: var(--vspace-2_5);
     }
-    .ss-go-top {
+    .ssGoTop {
         bottom: 4rem;
         right: 3.2rem;
     }
-    .ss-go-top a {
+    .ssGoTop a {
         height: 6rem;
         width: 6rem;
     }
@@ -4680,11 +4680,11 @@ input[type="button"].btn--primary:focus {
 }
 
 @media screen and (max-width: 800px) {
-    .ss-go-top a {
+    .ssGoTop a {
         height: 5.2rem;
         width: 5.2rem;
     }
-    .ss-go-top svg {
+    .ssGoTop svg {
         height: 2rem;
         width: 2rem;
     }
@@ -4697,7 +4697,7 @@ input[type="button"].btn--primary:focus {
     .ss-copyright span::after {
         display: none;
     }
-    .ss-go-top {
+    .ssGoTop {
         right: 2.4rem;
     }
 }

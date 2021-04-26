@@ -50,7 +50,7 @@
     * -------------------------------------------------- */
     const ssMoveHeader = function () {
 
-        const hdr = document.querySelector('.s-header');
+        const hdr = document.querySelector('.sHeader');
         const hero = document.querySelector('#hero');
         let triggerHeight;
 
@@ -92,8 +92,8 @@
     * ---------------------------------------------------- */ 
     const ssMobileMenu = function() {
 
-        const toggleButton = document.querySelector('.s-header__menu-toggle');
-        const headerNavWrap = document.querySelector('.s-header__nav-wrap');
+        const toggleButton = document.querySelector('.sHeaderMenuToggle');
+        const headerNavWrap = document.querySelector('.sHeader__nav-wrap');
         const siteBody = document.querySelector("body");
 
         if (!(toggleButton && headerNavWrap)) return;
@@ -104,7 +104,7 @@
             siteBody.classList.toggle('menu-is-open');
         });
 
-        headerNavWrap.querySelectorAll('.s-header__nav a').forEach(function(link) {
+        headerNavWrap.querySelectorAll('.sHeader__nav a').forEach(function(link) {
             link.addEventListener("click", function(evt) {
 
                 // at 800px and below
@@ -155,9 +155,9 @@
                 * an selector
                 */
                 if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                    document.querySelector(".s-header__nav a[href*=" + sectionId + "]").parentNode.classList.add("current");
+                    document.querySelector(".sHeader__nav a[href*=" + sectionId + "]").parentNode.classList.add("current");
                 } else {
-                    document.querySelector(".s-header__nav a[href*=" + sectionId + "]").parentNode.classList.remove("current");
+                    document.querySelector(".sHeader__nav a[href*=" + sectionId + "]").parentNode.classList.remove("current");
                 }
             });
         }
@@ -277,7 +277,7 @@
     const ssBackToTop = function() {
 
         const pxShow = 900;
-        const goTopButton = document.querySelector(".ss-go-top");
+        const goTopButton = document.querySelector(".ssGoTop");
 
         if (!goTopButton) return;
 
